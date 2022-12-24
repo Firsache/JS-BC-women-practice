@@ -29,4 +29,8 @@ policyCheckbox.addEventListener('change', evt => {
 
 formSubmit.addEventListener('submit', evt => {
     evt.preventDefault();
+
+    formSubmit.reset();
+    submitBtn.disabled = true;
+    outputNameEl.textContent = "";
 })
