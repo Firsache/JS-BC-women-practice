@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form DOM</title>
+</head>
+
+<body>
+    <form class="js-form">
+        <input type="text" id="name-input" placeholder="Please enter your name" />
+        <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+
+
+        <label>
+            <input type="checkbox" name="policy-accept" value="true" class="js-policy-checkbox">
+            I agree to subscription policy
+        </label>
+        <br>
+        <br>
+        <br>
+        <button type="submit" disabled class="js-form-submit-button">Send</button>
+    </form>
+    <script src="js/form-dom.js" type="module"></script>
+</body>
+
+</html>
